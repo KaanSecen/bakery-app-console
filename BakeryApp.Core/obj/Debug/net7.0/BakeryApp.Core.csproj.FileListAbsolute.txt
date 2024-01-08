@@ -1,0 +1,12 @@
+/Users/kaansecen/Desktop/projects/school/fontys/software/sem-1/BakeryAppConsole/BakeryApp.Core/bin/Debug/net7.0/BakeryApp.Core.deps.json
+/Users/kaansecen/Desktop/projects/school/fontys/software/sem-1/BakeryAppConsole/BakeryApp.Core/bin/Debug/net7.0/BakeryApp.Core.dll
+/Users/kaansecen/Desktop/projects/school/fontys/software/sem-1/BakeryAppConsole/BakeryApp.Core/bin/Debug/net7.0/BakeryApp.Core.pdb
+/Users/kaansecen/Desktop/projects/school/fontys/software/sem-1/BakeryAppConsole/BakeryApp.Core/obj/Debug/net7.0/BakeryApp.Core.csproj.AssemblyReference.cache
+/Users/kaansecen/Desktop/projects/school/fontys/software/sem-1/BakeryAppConsole/BakeryApp.Core/obj/Debug/net7.0/BakeryApp.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kaansecen/Desktop/projects/school/fontys/software/sem-1/BakeryAppConsole/BakeryApp.Core/obj/Debug/net7.0/BakeryApp.Core.AssemblyInfoInputs.cache
+/Users/kaansecen/Desktop/projects/school/fontys/software/sem-1/BakeryAppConsole/BakeryApp.Core/obj/Debug/net7.0/BakeryApp.Core.AssemblyInfo.cs
+/Users/kaansecen/Desktop/projects/school/fontys/software/sem-1/BakeryAppConsole/BakeryApp.Core/obj/Debug/net7.0/BakeryApp.Core.csproj.CoreCompileInputs.cache
+/Users/kaansecen/Desktop/projects/school/fontys/software/sem-1/BakeryAppConsole/BakeryApp.Core/obj/Debug/net7.0/BakeryApp.Core.dll
+/Users/kaansecen/Desktop/projects/school/fontys/software/sem-1/BakeryAppConsole/BakeryApp.Core/obj/Debug/net7.0/refint/BakeryApp.Core.dll
+/Users/kaansecen/Desktop/projects/school/fontys/software/sem-1/BakeryAppConsole/BakeryApp.Core/obj/Debug/net7.0/BakeryApp.Core.pdb
+/Users/kaansecen/Desktop/projects/school/fontys/software/sem-1/BakeryAppConsole/BakeryApp.Core/obj/Debug/net7.0/ref/BakeryApp.Core.dll

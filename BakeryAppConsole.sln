@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BakeryAppConsole", "BakeryAppConsole\BakeryAppConsole.csproj", "{1D3CB4E7-33D1-43A2-967D-B16DC2B0563D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BakeryApp.Core", "BakeryApp.Core\BakeryApp.Core.csproj", "{7F705B77-4656-45E4-BA24-F169008C3E26}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D3CB4E7-33D1-43A2-967D-B16DC2B0563D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D3CB4E7-33D1-43A2-967D-B16DC2B0563D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D3CB4E7-33D1-43A2-967D-B16DC2B0563D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D3CB4E7-33D1-43A2-967D-B16DC2B0563D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F705B77-4656-45E4-BA24-F169008C3E26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F705B77-4656-45E4-BA24-F169008C3E26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F705B77-4656-45E4-BA24-F169008C3E26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F705B77-4656-45E4-BA24-F169008C3E26}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

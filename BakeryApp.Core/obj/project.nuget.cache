@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "dFRrze3S3/3gORzAKk/lpOECso3onONjBHxaUNW3lUsvzbgfbDRUiS6BOnEv8kUJXLq7MfKFtbndYJ39uycfWw==",
+  "success": true,
+  "projectFilePath": "/Users/kaansecen/Desktop/projects/school/fontys/software/sem-1/BakeryAppConsole/BakeryApp.Core/BakeryApp.Core.csproj",
+  "expectedPackageFiles": [
+    "/Users/kaansecen/.nuget/packages/spectre.console/0.48.0/spectre.console.0.48.0.nupkg.sha512",
+    "/Users/kaansecen/.nuget/packages/system.memory/4.5.5/system.memory.4.5.5.nupkg.sha512"
+  ],
+  "logs": []
+}
