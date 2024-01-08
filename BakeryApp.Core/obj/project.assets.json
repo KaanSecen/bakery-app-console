@@ -80,25 +80,27 @@
     ]
   },
   "packageFolders": {
-    "/Users/kaansecen/.nuget/packages/": {}
+    "C:\\Users\\yusuf\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/kaansecen/Desktop/projects/school/fontys/software/sem-1/BakeryAppConsole/BakeryApp.Core/BakeryApp.Core.csproj",
+      "projectUniqueName": "C:\\Users\\yusuf\\Desktop\\programming\\c#\\bakery-app-console\\BakeryApp.Core\\BakeryApp.Core.csproj",
       "projectName": "BakeryApp.Core",
-      "projectPath": "/Users/kaansecen/Desktop/projects/school/fontys/software/sem-1/BakeryAppConsole/BakeryApp.Core/BakeryApp.Core.csproj",
-      "packagesPath": "/Users/kaansecen/.nuget/packages/",
-      "outputPath": "/Users/kaansecen/Desktop/projects/school/fontys/software/sem-1/BakeryAppConsole/BakeryApp.Core/obj/",
+      "projectPath": "C:\\Users\\yusuf\\Desktop\\programming\\c#\\bakery-app-console\\BakeryApp.Core\\BakeryApp.Core.csproj",
+      "packagesPath": "C:\\Users\\yusuf\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\yusuf\\Desktop\\programming\\c#\\bakery-app-console\\BakeryApp.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/kaansecen/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\yusuf\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "/usr/local/share/dotnet/library-packs": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -133,12 +135,26 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[7.0.14, 7.0.14]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[7.0.14, 7.0.14]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[7.0.14, 7.0.14]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.307/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

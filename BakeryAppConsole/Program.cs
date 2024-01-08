@@ -7,13 +7,15 @@ namespace BakeryAppConsole
     {
         static void Main()
         {
+            List<BreadType> breadTypesList = Enum.GetValues(typeof(BreadType)).Cast<BreadType>().ToList();
+            
             var bakeryName = AnsiConsole.Prompt(
                 new TextPrompt<string>("Enter the bakery name")
                     .DefaultValue("My Bakery")
                     .PromptStyle(new Style(foreground: Color.Yellow))
             );
 
-            Bakery bakery = new Bakery(bakeryName);
+            Bakery bakery = new Bakery(bakeryName, breadTypesList);
 
             bool running = true;
 
@@ -21,7 +23,7 @@ namespace BakeryAppConsole
             {
                 DisplayMenu(bakery);
 
-                var choices = new[] { "Create Sandwich", "Sell Sandwich", "Display Total Revenue", "Save Data", "Load Data", "Change Bakery Name", "Exit" };
+                var choices = new[] { "Create Sandwich", "Sell Sandwich", "Create Ingredient", "Display Total Revenue", "Save Data", "Load Data", "Change Bakery Name", "Exit" };
 
                 var selection = AnsiConsole.Prompt(
                     new SelectionPrompt<string>()
@@ -47,13 +49,20 @@ namespace BakeryAppConsole
             switch (choice)
             {
                 case 1:
-                    // Implement logic for creating a sandwich
+                    bakery.CreateSandwich();
                     break;
                 case 2:
                     // Implement logic for selling a sandwich
                     break;
                 case 3:
                     // Implement logic for displaying total revenue
+                    var ingredient = bakery.CreateIngredient();
+                    bakery.Ingredients.Add(ingredient);
+                    foreach (Ingredient i in bakery.Ingredients)
+                    {
+                        Console.WriteLine(i);
+                    }
+                    Console.ReadLine();
                     break;
                 case 4:
                     // Implement logic for saving data
@@ -63,6 +72,9 @@ namespace BakeryAppConsole
                     break;
                 case 6:
                     bakery.ChangeBakeryName();
+                    break;
+                case 7:
+                    
                     break;
                 default:
                     AnsiConsole.WriteLine("Invalid choice. Please try again.");

@@ -1,11 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "C3UbZ+5i9lhp8HS8QtHKKzE/wrcfmtet9TDWtMPd479n8kh9H7LfWxduoGiyctb1ZNC5NY5lvRjkYx728xUtMA==",
+  "dgSpecHash": "VT+R7QmOpSGZtXPG2sW2njLbn5xbL6Y+rs4cGmk56WHZ7MHNDMHUC/HrtWh4VllAbBRjU6+S3nAEqaf9RALtgg==",
   "success": true,
-  "projectFilePath": "/Users/kaansecen/Desktop/projects/school/fontys/software/sem-1/BakeryAppConsole/BakeryAppConsole/BakeryAppConsole.csproj",
+  "projectFilePath": "C:\\Users\\yusuf\\Desktop\\programming\\c#\\bakery-app-console\\BakeryAppConsole\\BakeryAppConsole.csproj",
   "expectedPackageFiles": [
-    "/Users/kaansecen/.nuget/packages/spectre.console/0.48.0/spectre.console.0.48.0.nupkg.sha512",
-    "/Users/kaansecen/.nuget/packages/system.memory/4.5.5/system.memory.4.5.5.nupkg.sha512"
+    "C:\\Users\\yusuf\\.nuget\\packages\\spectre.console\\0.48.0\\spectre.console.0.48.0.nupkg.sha512",
+    "C:\\Users\\yusuf\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\yusuf\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.14\\microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\yusuf\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.14\\microsoft.windowsdesktop.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\yusuf\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.14\\microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\yusuf\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.14\\microsoft.netcore.app.host.win-x64.7.0.14.nupkg.sha512"
   ],
   "logs": []
 }

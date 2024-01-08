@@ -1,3 +1,4 @@
+using Spectre.Console;
 namespace BakeryApp.Core;
 
 public class Sandwich

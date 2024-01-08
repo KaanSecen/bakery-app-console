@@ -10,3 +10,16 @@
 /Users/kaansecen/Desktop/projects/school/fontys/software/sem-1/BakeryAppConsole/BakeryApp.Core/obj/Debug/net7.0/refint/BakeryApp.Core.dll
 /Users/kaansecen/Desktop/projects/school/fontys/software/sem-1/BakeryAppConsole/BakeryApp.Core/obj/Debug/net7.0/BakeryApp.Core.pdb
 /Users/kaansecen/Desktop/projects/school/fontys/software/sem-1/BakeryAppConsole/BakeryApp.Core/obj/Debug/net7.0/ref/BakeryApp.Core.dll
+C:\Users\yusuf\Desktop\programming\c#\bakery-app-console\BakeryApp.Core\bin\Debug\net7.0\BakeryApp.Core.deps.json
+C:\Users\yusuf\Desktop\programming\c#\bakery-app-console\BakeryApp.Core\bin\Debug\net7.0\BakeryApp.Core.dll
+C:\Users\yusuf\Desktop\programming\c#\bakery-app-console\BakeryApp.Core\bin\Debug\net7.0\BakeryApp.Core.pdb
+C:\Users\yusuf\Desktop\programming\c#\bakery-app-console\BakeryApp.Core\obj\Debug\net7.0\BakeryApp.Core.csproj.AssemblyReference.cache
+C:\Users\yusuf\Desktop\programming\c#\bakery-app-console\BakeryApp.Core\obj\Debug\net7.0\BakeryApp.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yusuf\Desktop\programming\c#\bakery-app-console\BakeryApp.Core\obj\Debug\net7.0\BakeryApp.Core.AssemblyInfoInputs.cache
+C:\Users\yusuf\Desktop\programming\c#\bakery-app-console\BakeryApp.Core\obj\Debug\net7.0\BakeryApp.Core.AssemblyInfo.cs
+C:\Users\yusuf\Desktop\programming\c#\bakery-app-console\BakeryApp.Core\obj\Debug\net7.0\BakeryApp.Core.csproj.CoreCompileInputs.cache
+C:\Users\yusuf\Desktop\programming\c#\bakery-app-console\BakeryApp.Core\obj\Debug\net7.0\BakeryApp.Core.sourcelink.json
+C:\Users\yusuf\Desktop\programming\c#\bakery-app-console\BakeryApp.Core\obj\Debug\net7.0\BakeryApp.Core.dll
+C:\Users\yusuf\Desktop\programming\c#\bakery-app-console\BakeryApp.Core\obj\Debug\net7.0\refint\BakeryApp.Core.dll
+C:\Users\yusuf\Desktop\programming\c#\bakery-app-console\BakeryApp.Core\obj\Debug\net7.0\BakeryApp.Core.pdb
+C:\Users\yusuf\Desktop\programming\c#\bakery-app-console\BakeryApp.Core\obj\Debug\net7.0\ref\BakeryApp.Core.dll
