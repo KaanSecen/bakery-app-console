@@ -37,3 +37,4 @@ C:\Users\yusuf\Desktop\programming\c#\bakery-app-console\BakeryAppConsole\obj\De
 C:\Users\yusuf\Desktop\programming\c#\bakery-app-console\BakeryAppConsole\obj\Debug\net7.0\BakeryAppConsole.pdb
 C:\Users\yusuf\Desktop\programming\c#\bakery-app-console\BakeryAppConsole\obj\Debug\net7.0\BakeryAppConsole.genruntimeconfig.cache
 C:\Users\yusuf\Desktop\programming\c#\bakery-app-console\BakeryAppConsole\obj\Debug\net7.0\ref\BakeryAppConsole.dll
+C:\Users\yusuf\Desktop\programming\c#\bakery-app-console\BakeryAppConsole\bin\Debug\net7.0\Newtonsoft.Json.dll

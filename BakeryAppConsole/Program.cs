@@ -8,6 +8,10 @@ namespace BakeryAppConsole
         static void Main()
         {
             List<BreadType> breadTypesList = Enum.GetValues(typeof(BreadType)).Cast<BreadType>().ToList();
+            List<Ingredient> ingredients = new List<Ingredient>();
+            List<Sandwich> sandwiches = new List<Sandwich>();
+            List<Sandwich> soldSandwiches = new List<Sandwich>();
+            
             
             var bakeryName = AnsiConsole.Prompt(
                 new TextPrompt<string>("Enter the bakery name")
@@ -15,15 +19,15 @@ namespace BakeryAppConsole
                     .PromptStyle(new Style(foreground: Color.Yellow))
             );
 
-            Bakery bakery = new Bakery(bakeryName, breadTypesList);
-
+            Bakery bakery = new Bakery(bakeryName, breadTypesList, ingredients, sandwiches, soldSandwiches);
+            BakeryPrompt bakeryPrompt = new BakeryPrompt(breadTypesList, ingredients, sandwiches, bakery);
             bool running = true;
 
             while (running)
             {
                 DisplayMenu(bakery);
 
-                var choices = new[] { "Create Sandwich", "Sell Sandwich", "Create Ingredient", "Display Total Revenue", "Save Data", "Load Data", "Change Bakery Name", "Exit" };
+                var choices = new[] { "Create Sandwich", "Sell Sandwich", "Create Ingredient", "Display Total Revenue", "Save Data", "Load Data", "Change Bakery Name", "Show menu", "Exit" };
 
                 var selection = AnsiConsole.Prompt(
                     new SelectionPrompt<string>()
@@ -39,42 +43,38 @@ namespace BakeryAppConsole
                 }
                 else
                 {
-                    ProcessChoice(bakery, Array.IndexOf(choices, selection) + 1);
+                    ProcessChoice(bakery, Array.IndexOf(choices, selection) + 1, bakeryPrompt);
                 }
             }
         }
 
-        private static void ProcessChoice(Bakery bakery, int choice)
+        private static void ProcessChoice(Bakery bakery, int choice, BakeryPrompt bakeryPrompt)
         {
             switch (choice)
             {
                 case 1:
-                    bakery.CreateSandwich();
+                    bakeryPrompt.PromptSandwichCreation();
                     break;
                 case 2:
-                    // Implement logic for selling a sandwich
+                    bakeryPrompt.PromptSellSandwich();
                     break;
                 case 3:
-                    // Implement logic for displaying total revenue
-                    var ingredient = bakery.CreateIngredient();
-                    bakery.Ingredients.Add(ingredient);
-                    foreach (Ingredient i in bakery.Ingredients)
-                    {
-                        Console.WriteLine(i);
-                    }
-                    Console.ReadLine();
+                    bakery.CreateIngredient(bakeryPrompt.PromptIngredientCreation());
                     break;
                 case 4:
-                    // Implement logic for saving data
+                    bakery.ShowRevenue();
                     break;
                 case 5:
-                    // Implement logic for loading data
+                    bakery.SaveData();
                     break;
                 case 6:
-                    bakery.ChangeBakeryName();
+                    bakery.LoadData();
                     break;
                 case 7:
-                    
+                    bakery.ChangeBakeryName();
+                    break;
+                case 8:
+                    bakery.ShowMenu();
                     break;
                 default:
                     AnsiConsole.WriteLine("Invalid choice. Please try again.");
