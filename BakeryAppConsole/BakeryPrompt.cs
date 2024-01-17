@@ -17,6 +17,16 @@ public class BakeryPrompt
         Sandwiches = sandwiches;
         Bakery = bakery;
     }
+
+    public string GetNewSandwichName()
+    {
+        var newName = AnsiConsole.Prompt(
+            new TextPrompt<string>("Enter the new sandwich name:")
+                .PromptStyle(new Style(foreground: Color.Red))
+        );
+
+        return newName;
+    }
     
     public Sandwich PromptSandwichCreation()
     {
