@@ -23,6 +23,8 @@ namespace BakeryAppConsole
             BakeryPrompt bakeryPrompt = new BakeryPrompt(breadTypesList, ingredients, sandwiches, bakery);
             bool running = true;
 
+            bakery.LoadData();
+            
             while (running)
             {
                 DisplayMenu(bakery);
@@ -53,13 +55,13 @@ namespace BakeryAppConsole
             switch (choice)
             {
                 case 1:
-                    bakeryPrompt.PromptSandwichCreation();
+                    bakery.CreateSandwich();
                     break;
                 case 2:
-                    bakeryPrompt.PromptSellSandwich();
+                    bakery.SellSandwich();
                     break;
                 case 3:
-                    bakery.CreateIngredient(bakeryPrompt.PromptIngredientCreation());
+                    bakery.CreateIngredient();
                     break;
                 case 4:
                     bakery.ShowRevenue();

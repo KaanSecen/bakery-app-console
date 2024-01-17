@@ -1,1 +1,63 @@
-[]
+[
+  {
+    "Name": "kaan",
+    "BasePrice": 5.0,
+    "BreadType": 0,
+    "Ingredients": [
+      {
+        "Name": "ssswwww",
+        "Price": 11.0
+      }
+    ]
+  },
+  {
+    "Name": "broodje king",
+    "BasePrice": 4.0,
+    "BreadType": 0,
+    "Ingredients": [
+      {
+        "Name": "tomaat",
+        "Price": 1.0
+      },
+      {
+        "Name": "komkommer ",
+        "Price": 2.0
+      },
+      {
+        "Name": "sla ",
+        "Price": 0.5
+      },
+      {
+        "Name": "kip",
+        "Price": 1.5
+      },
+      {
+        "Name": "frikandel",
+        "Price": 1.0
+      }
+    ]
+  },
+  {
+    "Name": "breadmaker",
+    "BasePrice": 4.0,
+    "BreadType": 2,
+    "Ingredients": [
+      {
+        "Name": "tomaat",
+        "Price": 1.0
+      },
+      {
+        "Name": "komkommer ",
+        "Price": 2.0
+      },
+      {
+        "Name": "sla ",
+        "Price": 0.5
+      },
+      {
+        "Name": "ham",
+        "Price": 2.0
+      }
+    ]
+  }
+]

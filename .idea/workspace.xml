@@ -1,54 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9dff521e-6e40-4040-b79c-854ade385e0d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/BakeryApp.Core/Bakery.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BakeryApp.Core/Bakery.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BakeryApp.Core/BakeryApp.Core.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BakeryApp.Core/BakeryApp.Core.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BakeryApp.Core/Ingredient.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BakeryApp.Core/Ingredient.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BakeryApp.Core/Sandwich.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BakeryApp.Core/Sandwich.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BakeryApp.Core/bin/Debug/net7.0/BakeryApp.Core.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/BakeryApp.Core/bin/Debug/net7.0/BakeryApp.Core.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BakeryApp.Core/bin/Debug/net7.0/BakeryApp.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BakeryApp.Core/bin/Debug/net7.0/BakeryApp.Core.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BakeryApp.Core/bin/Debug/net7.0/BakeryApp.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BakeryApp.Core/bin/Debug/net7.0/BakeryApp.Core.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BakeryApp.Core/obj/BakeryApp.Core.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BakeryApp.Core/obj/BakeryApp.Core.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BakeryApp.Core/obj/Debug/net7.0/BakeryApp.Core.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BakeryApp.Core/obj/Debug/net7.0/BakeryApp.Core.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BakeryApp.Core/obj/Debug/net7.0/BakeryApp.Core.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BakeryApp.Core/obj/Debug/net7.0/BakeryApp.Core.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BakeryApp.Core/obj/Debug/net7.0/BakeryApp.Core.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BakeryApp.Core/obj/Debug/net7.0/BakeryApp.Core.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BakeryApp.Core/obj/Debug/net7.0/BakeryApp.Core.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BakeryApp.Core/obj/Debug/net7.0/BakeryApp.Core.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BakeryApp.Core/obj/Debug/net7.0/BakeryApp.Core.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BakeryApp.Core/obj/Debug/net7.0/BakeryApp.Core.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BakeryApp.Core/obj/Debug/net7.0/BakeryApp.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BakeryApp.Core/obj/Debug/net7.0/BakeryApp.Core.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BakeryApp.Core/obj/Debug/net7.0/BakeryApp.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BakeryApp.Core/obj/Debug/net7.0/BakeryApp.Core.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BakeryApp.Core/obj/Debug/net7.0/BakeryApp.Core.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/BakeryApp.Core/obj/Debug/net7.0/BakeryApp.Core.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BakeryApp.Core/obj/Debug/net7.0/ref/BakeryApp.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BakeryApp.Core/obj/Debug/net7.0/ref/BakeryApp.Core.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BakeryApp.Core/obj/Debug/net7.0/refint/BakeryApp.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BakeryApp.Core/obj/Debug/net7.0/refint/BakeryApp.Core.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BakeryApp.Core/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/BakeryApp.Core/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BakeryApp.Core/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BakeryApp.Core/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BakeryApp.Core/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BakeryApp.Core/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BakeryApp.Core/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/BakeryApp.Core/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BakeryApp.Core/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/BakeryApp.Core/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BakeryAppConsole/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BakeryAppConsole/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BakeryAppConsole/bin/Debug/net7.0/BakeryApp.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BakeryAppConsole/bin/Debug/net7.0/BakeryApp.Core.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BakeryAppConsole/bin/Debug/net7.0/BakeryApp.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BakeryAppConsole/bin/Debug/net7.0/BakeryApp.Core.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BakeryAppConsole/bin/Debug/net7.0/BakeryAppConsole.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/BakeryAppConsole/bin/Debug/net7.0/BakeryAppConsole.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BakeryAppConsole/bin/Debug/net7.0/BakeryAppConsole.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BakeryAppConsole/bin/Debug/net7.0/BakeryAppConsole.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BakeryAppConsole/bin/Debug/net7.0/BakeryAppConsole.exe" beforeDir="false" afterPath="$PROJECT_DIR$/BakeryAppConsole/bin/Debug/net7.0/BakeryAppConsole.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BakeryAppConsole/bin/Debug/net7.0/BakeryAppConsole.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BakeryAppConsole/bin/Debug/net7.0/BakeryAppConsole.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BakeryAppConsole/obj/BakeryAppConsole.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BakeryAppConsole/obj/BakeryAppConsole.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BakeryAppConsole/obj/Debug/net7.0/BakeryAppConsole.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BakeryAppConsole/obj/Debug/net7.0/BakeryAppConsole.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BakeryAppConsole/obj/Debug/net7.0/BakeryAppConsole.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BakeryAppConsole/obj/Debug/net7.0/BakeryAppConsole.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BakeryAppConsole/obj/Debug/net7.0/BakeryAppConsole.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BakeryAppConsole/obj/Debug/net7.0/BakeryAppConsole.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BakeryAppConsole/obj/Debug/net7.0/BakeryAppConsole.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BakeryAppConsole/obj/Debug/net7.0/BakeryAppConsole.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BakeryAppConsole/obj/Debug/net7.0/BakeryAppConsole.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BakeryAppConsole/obj/Debug/net7.0/BakeryAppConsole.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BakeryAppConsole/obj/Debug/net7.0/BakeryAppConsole.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/BakeryAppConsole/obj/Debug/net7.0/BakeryAppConsole.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BakeryAppConsole/obj/Debug/net7.0/BakeryAppConsole.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BakeryAppConsole/obj/Debug/net7.0/BakeryAppConsole.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BakeryAppConsole/obj/Debug/net7.0/BakeryAppConsole.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BakeryAppConsole/obj/Debug/net7.0/BakeryAppConsole.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BakeryAppConsole/obj/Debug/net7.0/BakeryAppConsole.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/BakeryAppConsole/obj/Debug/net7.0/BakeryAppConsole.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BakeryAppConsole/obj/Debug/net7.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/BakeryAppConsole/obj/Debug/net7.0/apphost.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BakeryAppConsole/obj/Debug/net7.0/ref/BakeryAppConsole.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BakeryAppConsole/obj/Debug/net7.0/ref/BakeryAppConsole.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BakeryAppConsole/obj/Debug/net7.0/refint/BakeryAppConsole.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BakeryAppConsole/obj/Debug/net7.0/refint/BakeryAppConsole.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BakeryAppConsole/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/BakeryAppConsole/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BakeryAppConsole/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BakeryAppConsole/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BakeryAppConsole/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/BakeryAppConsole/obj/rider.project.restore.info" afterDir="false" />
-    </list>
+    <list default="true" id="9dff521e-6e40-4040-b79c-854ade385e0d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,14 +18,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/yusuf/Desktop/programming/javascript/angular/stuvatar",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -83,6 +37,7 @@
       <updated>1704895344888</updated>
       <workItem from="1704895353612" duration="6000" />
       <workItem from="1704895482373" duration="6000" />
+      <workItem from="1705309670506" duration="26000" />
     </task>
     <servers />
   </component>

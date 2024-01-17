@@ -1,1 +1,30 @@
-[]
+[
+  {
+    "Name": "ssswwww",
+    "Price": 11.0
+  },
+  {
+    "Name": "tomaat",
+    "Price": 1.0
+  },
+  {
+    "Name": "komkommer ",
+    "Price": 2.0
+  },
+  {
+    "Name": "sla ",
+    "Price": 0.5
+  },
+  {
+    "Name": "ham",
+    "Price": 2.0
+  },
+  {
+    "Name": "kip",
+    "Price": 1.5
+  },
+  {
+    "Name": "frikandel",
+    "Price": 1.0
+  }
+]

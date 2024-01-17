@@ -32,20 +32,74 @@ public class Bakery
         AnsiConsole.MarkupLine($"Bakery name changed to: [yellow]{Name}[/]");
     }
 
-    public void CreateSandwich(Sandwich sandwich)
+    public void CreateSandwich()
     {
-        if (Sandwiches.Any(s => s.Name == sandwich.Name))
+        var lessThanFiveIngredients = true;
+        List<Ingredient> ingredients = null;
+        
+        var newName = AnsiConsole.Prompt(
+            new TextPrompt<string>("Enter the new sandwich name:")
+                .PromptStyle(new Style(foreground: Color.Red))
+        );
+        
+        AnsiConsole.MarkupLine($"Sandwich name: [yellow]{newName}[/]");
+        
+        var newPrice = AnsiConsole.Prompt(
+            new TextPrompt<double>("Enter the new sandwich base price:")
+                .PromptStyle(new Style(foreground: Color.Red))
+        );
+        
+        AnsiConsole.MarkupLine($"Sandwich base price: [yellow]{newPrice}[/]");
+
+        var selectedBreadType = AnsiConsole.Prompt(
+            new SelectionPrompt<BreadType>()
+                .Title("Choose a bread type:")
+                .PageSize(10)
+                .AddChoices(BreadTypesList)
+                .HighlightStyle(new Style(foreground: Color.Yellow))
+        );
+        
+        AnsiConsole.MarkupLine($"Sandwich bread: [yellow]{selectedBreadType}[/]");
+
+        while (lessThanFiveIngredients)
         {
-            throw new InvalidOperationException("Hey this sandwich already exists");
+            ingredients = AnsiConsole.Prompt(
+                new MultiSelectionPrompt<Ingredient>()
+                    .Title("Choose your [green]Ingredients[/]?")
+                    .PageSize(10)
+                    .MoreChoicesText("[grey](Move up and down to reveal more ingredients)[/]")
+                    .InstructionsText("Choose up to 5 ingredients")
+                    .AddChoices(Ingredients.Select(i => i)).UseConverter(ingredient => ingredient.ToString()));
+
+            if (ingredients.Count <= 5)
+            {
+                lessThanFiveIngredients = false;
+            }
         }
+
+        var newSandwich = new Sandwich(newName, newPrice, selectedBreadType, ingredients);
+        Sandwiches.Add(newSandwich);
+        
+        Console.WriteLine(newSandwich.ToString());
+        Console.ReadLine();
     }
     
-    public void CreateIngredient(Ingredient ingredient)
+    public void CreateIngredient()
     {
-        if (Ingredients.Any(i => i.Name == ingredient.Name))
-        {
-            throw new InvalidOperationException("Hey this ingredient already exists");
-        }
+        var newName = AnsiConsole.Prompt(
+            new TextPrompt<string>("Enter the new ingredient name:")
+                .PromptStyle(new Style(foreground: Color.Red))
+        );
+        
+        AnsiConsole.MarkupLine($"Ingredient name: [yellow]{newName}[/]");
+        
+        var newPrice = AnsiConsole.Prompt(
+            new TextPrompt<double>("Enter the new ingredient price:")
+                .PromptStyle(new Style(foreground: Color.Red))
+        );
+
+        var newIngredient = new Ingredient(newName, newPrice);
+        Ingredients.Add(newIngredient);
     }
 
     public void ShowIngredients()
@@ -168,6 +222,46 @@ public class Bakery
         foreach (Sandwich soldSandwich in SoldSandwiches)
         {
             Console.WriteLine(soldSandwich.ToString());
+        }
+        
+        Console.ReadLine();
+    }
+
+    public void SellSandwich()
+    {
+        var selectedSandwiches = AnsiConsole.Prompt(
+            new MultiSelectionPrompt<Sandwich>()
+                .Title("Choose your [green]Sandwiches[/]?")
+                .PageSize(10)
+                .MoreChoicesText("[grey](Move up and down to reveal more sandwiches)[/]")
+                .AddChoices(Sandwiches.Select(i => i)));
+        
+        Console.WriteLine("-----------------------------");
+        foreach (Sandwich sandwich in selectedSandwiches)
+        {
+            Console.WriteLine(sandwich.BasePrice);
+        }
+        Console.WriteLine("-----------------------------");
+        Console.WriteLine("You have selected:");
+        foreach (Sandwich sandwich in selectedSandwiches)
+        {
+            Console.WriteLine(sandwich.ToString());
+        }
+        Console.WriteLine("-----------------------------");
+        Console.WriteLine("The prices are:");
+        foreach (Sandwich sandwich in selectedSandwiches)
+        {
+            Console.WriteLine(sandwich.GetPrice());
+        }
+        Console.WriteLine("-----------------------------");
+        Console.WriteLine("Your total is:");
+        Console.WriteLine(CalculatePrice(selectedSandwiches));
+
+        totalRevenue += CalculatePrice(selectedSandwiches);
+
+        foreach (Sandwich sandwich in selectedSandwiches)
+        {
+            SoldSandwiches.Add(sandwich);
         }
         
         Console.ReadLine();
